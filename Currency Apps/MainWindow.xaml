@@ -1,0 +1,18 @@
+﻿<Window x:Class="Currency_Apps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Currency_Apps"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="412" Width="534">
+    <Grid Margin="0,0,0,-16">
+        <TextBox x:Name="InputTextBox" HorizontalAlignment="Center" Margin="0,149,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Height="50" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Nilai Tukar Rupiah" HorizontalAlignment="Center" Margin="0,263,0,0" VerticalAlignment="Top" Height="50" Width="430" FontSize="24" FontWeight="Bold"/>
+        <Label x:Name="resultLabel" Content="0" HorizontalAlignment="Center" Margin="0,317,0,0" VerticalAlignment="Top" Height="50" Width="430" FontSize="24" FontWeight="Bold"/>
+        <Button Content="Hitung" HorizontalAlignment="Center" Margin="0,203,0,0" VerticalAlignment="Top" Height="50" Width="430" FontSize="24" FontWeight="Bold" Click="Button_Click"/>
+        <Label Content="USD" HorizontalAlignment="Left" Margin="52,91,0,0" VerticalAlignment="Top" Height="50" Width="199" FontSize="24" FontWeight="Bold"/>
+        <Label Content=" Currency Apps" HorizontalAlignment="Left" Margin="52,36,0,0" VerticalAlignment="Top" Height="50" Width="199" FontSize="24" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
